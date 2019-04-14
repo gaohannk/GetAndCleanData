@@ -4,6 +4,7 @@ library(dplyr)
 # Download data set
 fileUrl = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileUrl, destfile = "dataset.zip", method = "curl")
+unzip("dataset.zip")
 
 # Read Data
 testX = read.table("./UCI HAR Dataset/test/X_test.txt", header = F)

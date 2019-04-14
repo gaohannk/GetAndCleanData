@@ -1,3 +1,5 @@
+## Here is the main process of data:
+
 Using rbind() to merge two dataframe test and train data
 
 Using colnames() to add column name for dataframe
